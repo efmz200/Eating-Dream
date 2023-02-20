@@ -13,10 +13,11 @@ class Hospedaje : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_hospedaje)
+
         var list = this.requireViewById<LinearLayout>(R.id.hotelsList);
 
-        val names = listOf("Mc Donalds", "KFC", "Soda del lago","Asetec","Soda Deportiva","Subway","La sangüchera","Moes",
-                "Mc Donalds", "KFC", "Soda del lago","Asetec","Soda Deportiva","Subway","La sangüchera","Moes")
+        val names = listOf("Alama de luna", "White house", "Montaña linda","la laguna","Rio perlas","Grandpas","Rinconcito verde","Shakti",
+                "El salto", "El rio", "Cañaveral","Quelitales","Orocay","El Roble")
         for (i in names.indices) {
             // Create TextView programmatically.
             val btn =  Button(this)

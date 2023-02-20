@@ -18,4 +18,10 @@ class MainActivity : AppCompatActivity() {
         }
         startActivity(intent)
     }
+    fun sendMessage2(view: View) {
+        // Do something in response to button
+        val intent = Intent(this, Restaurantes::class.java).apply {
+        }
+        startActivity(intent)
+    }
 }

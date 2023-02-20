@@ -25,6 +25,7 @@
         android:layout_marginTop="96dp"
         android:text="Restaurantes"
         app:layout_constraintStart_toStartOf="parent"
+        android:onClick="sendMessage2"
         app:layout_constraintTop_toBottomOf="@+id/hospedajeBtn" />
 
     <TextView
